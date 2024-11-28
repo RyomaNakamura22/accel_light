@@ -1,0 +1,27 @@
+# Python関連
+__pycache__/
+*.py[cod]
+*.log
+
+# Django関連
+*.sqlite3
+db.sqlite3
+*.pyc
+
+# 仮想環境
+env/
+venv/
+
+# 静的ファイル関連
+staticfiles/
+media/
+
+# IDE関連
+.vscode/
+.idea/
+
+# その他（追加の保険）
+*.pyo
+*.env
+.DS_Store
+Thumbs.db
